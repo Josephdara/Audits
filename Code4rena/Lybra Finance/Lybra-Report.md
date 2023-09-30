@@ -15,8 +15,9 @@
 https://github.com/code-423n4/2023-06-lybra/blob/7b73ef2fbb542b569e182d9abf79be643ca883ee/contracts/lybra/configuration/LybraConfigurator.sol#L85-L93
 
 The LybraConfigurator is the contract in charge of all core functionality in the Lybra ecosystem. However, the modifiers checks here are invalid. So anybody could call any function in the protocol. All funds could be stolen and governance overturned
-```solidity 
+
 Proof of Concept
+```solidity 
 //@audit-issue modifier does not revert  
    modifier onlyRole(bytes32 role) {
        GovernanceTimelock.checkOnlyRole(role, msg.sender);
@@ -27,7 +28,7 @@ Proof of Concept
        GovernanceTimelock.checkRole(role, msg.sender);
        _;
    }
-    ```
+```
 This modifier here makes a call to the GovernanceTimelock smart contract to fetch the roles there. In the GovernanceTimelock smart contract however, it is visible that this checks are invalid.
 ```solidity 
     function checkRole(bytes32 role, address _sender) public view  returns(bool){
@@ -37,13 +38,13 @@ This modifier here makes a call to the GovernanceTimelock smart contract to fetc
     function checkOnlyRole(bytes32 role, address _sender) public view  returns(bool){
         return hasRole(role, _sender);
     }
-     ```
+```
 This makes a call to the inherited hasRole function which does not revert, but instead returns a bool, True if the address has the role, and false if the person does not have the role.
 ```solidity 
     function hasRole(bytes32 role, address account) public view virtual override returns (bool) {
         return _roles[role].members[account];
     }
-    ```
+```
 Hence the modifier only gets a false Boolean value but does not revert because there is no require statement involved.
 
 Tools Used
@@ -74,7 +75,7 @@ https://github.com/code-423n4/2023-06-lybra/blob/7b73ef2fbb542b569e182d9abf79be6
     function _voteSucceeded(uint256 proposalId) internal view override returns (bool){
         return proposalData[proposalId].supportVotes[1] > proposalData[proposalId].supportVotes[0];
     } 
-    ```
+ ```
 _voteSucceeded is a function that checks if the votes have succeeded in favor of the proposal, however, this function returns true if proposal fails and false if proposal fails
 
 Proof of Concept
@@ -177,7 +178,7 @@ Here in the Governance contract, the voting period is locked to 3 blocks.
      function votingDelay() public pure override returns (uint256){
          return 1;
     }
-    ```
+```
 This is a direct bug because if we take a look at the inherited Governor contract we see where the proposal is being created and the voting limits are set
 ```solidity 
  function propose(
@@ -215,7 +216,7 @@ This is a direct bug because if we take a look at the inherited Governor contrac
             __gap_unused1: 0
         });
     }
-        ```
+```
 However after reaching out to the sponsor, I was informed that the voting periods are supposed to be 2 weeks long. Instead the voteEnd is set to 36 secs after proposal.
 
 ## Tools Used
