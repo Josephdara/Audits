@@ -28,8 +28,8 @@ Code4rena Profile: https://code4rena.com/@josephdara
 | [Good Entry](https://code4rena.com/contests/2023-08-good-entry#top) | - | 2 Medium |  [Source](xxxxxxxx) | 
 | [Tangible Caviar](https://code4rena.com/contests/2023-08-tangible-caviar#top) | - | 1 Medium | [Source](xxxxxxxx) | 
 | [Amphora Protocol](https://code4rena.com/contests/2023-07-amphora-protocol#top) | 1 High | - | [Source](xxxxxxxx)  | 
-| [PoolTogether](https://code4rena.com/contests/2023-07-pooltogether#top) | 1 High | 1 Medium| [Source](xxxxxxxx)  |
-| [Lybra Finance](https://code4rena.com/contests/2023-06-lybra-finance#top) | 3 High | 2 Medium | [Source](https://github.com/Josephdara/Audits/blob/main/Code4rena/PoolTogether-V5/PoolTogether-V5-Report.md) | 
+| [PoolTogether](https://code4rena.com/contests/2023-07-pooltogether#top) | 1 High | 1 Medium| [Source](https://github.com/Josephdara/Audits/blob/main/Code4rena/PoolTogether-V5/PoolTogether-V5-Report.md)  |
+| [Lybra Finance](https://code4rena.com/contests/2023-06-lybra-finance#top) | 3 High | 2 Medium | [Source](https://github.com/Josephdara/Audits/blob/main/Code4rena/Lybra%20Finance/Lybra-Report.md) | 
 | [Stader Labs](https://code4rena.com/contests/2023-06-stader-labs#top) | - | 2 Medium | [Source](xxxxxxxx)  | 
 
 

@@ -1,4 +1,4 @@
- # [Lybra Finance Report](https://code4rena.com/reports/2023-08-pooltogether)
+ # [PoolTogether Report](https://code4rena.com/reports/2023-08-pooltogether)
 
 ## Findings by Josephdara
 | Severity | Title | Count |
