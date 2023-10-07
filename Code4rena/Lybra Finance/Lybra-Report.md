@@ -7,7 +7,7 @@
 | [H-02](#h-02-_voteSucceeded-check-is-invalid)| _voteSucceeded check is invalid| H-02 |
 | [H-03](#h-03-_quorumReached-does-not-add-all-votes)| _quorumReached does not add all votes| H-03 |
 | [M-01](#m-01-Wrong-validation-when-setting-BadCollateralRatio)| Wrong validation when setting BadCollateralRatio| M-01 |
-| [M-02](#m-02-Voting-period-hardcoded-to-3blocks)| Voting period hardcoded to 3 blocks| M-02 |
+| [M-02](#m-02-Voting-period-hardcoded-to-3-blocks)| Voting period hardcoded to 3 blocks| M-02 |
 
 ## [H-01] Invalid Access Control Modifiers
 
