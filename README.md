@@ -15,13 +15,15 @@ Code4rena Profile: https://code4rena.com/@josephdara
 
 | Overall | High risk |  Medium risk | Audited contests |
 |:--:|:--:|:--:|:--:|
-| 14 High/Medium | 6 High | 8 Medium | 11 |  
+| 17 H/M | 6 High | 11 Medium | 13 |  
 
 # Code4rena <img src="https://code4rena.com/logos/c4-logo.svg" width=100 height=25>
 
 ### Audit Competitions
 | Contest | High risk | Medium risk | Security report | 
 |:--:|:--:|:--:|:--:|
+| [Maia](https://code4rena.com/contests/2023-09-maia-dao-ulysses#top) | - | - | TBC |
+| [Venus Prime](https://code4rena.com/contests/2023-09-venus-prime#top) | - | - | TBC |
 | [Dopex](https://code4rena.com/contests/2023-08-dopex#top) | - | - | TBC |
 | [Centrifuge](https://code4rena.com/contests/2023-09-centrifuge#top) | - | 3 Medium| TBC |
 | [PoolTogether V5: Part Deux](https://code4rena.com/contests/2023-08-pooltogether-v5-part-deux#top) | 1 High | - | [Source](xxxxxxxx)  |
