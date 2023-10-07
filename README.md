@@ -23,13 +23,13 @@ Code4rena Profile: https://code4rena.com/@josephdara
 | Contest | High risk | Medium risk | Security report | 
 |:--:|:--:|:--:|:--:|
 | [Dopex](https://code4rena.com/contests/2023-08-dopex#top) | - | - | TBC |
-| [Centrifuge](https://code4rena.com/contests/2023-09-centrifuge#top) | - | - | TBC |
+| [Centrifuge](https://code4rena.com/contests/2023-09-centrifuge#top) | - | 3 Medium| TBC |
 | [PoolTogether V5: Part Deux](https://code4rena.com/contests/2023-08-pooltogether-v5-part-deux#top) | 1 High | - | [Source](xxxxxxxx)  |
 | [Good Entry](https://code4rena.com/contests/2023-08-good-entry#top) | - | 2 Medium |  [Source](xxxxxxxx) | 
 | [Tangible Caviar](https://code4rena.com/contests/2023-08-tangible-caviar#top) | - | 1 Medium | [Source](xxxxxxxx) | 
 | [Amphora Protocol](https://code4rena.com/contests/2023-07-amphora-protocol#top) | 1 High | - | [Source](xxxxxxxx)  | 
 | [PoolTogether](https://code4rena.com/contests/2023-07-pooltogether#top) | 1 High | 1 Medium| [Source](xxxxxxxx)  |
-| [Lybra Finance](https://code4rena.com/contests/2023-06-lybra-finance#top) | 3 High | 2 Medium | [Source](xxxxxxxx) | 
+| [Lybra Finance](https://code4rena.com/contests/2023-06-lybra-finance#top) | 3 High | 2 Medium | [Source](https://github.com/Josephdara/Audits/blob/main/Code4rena/PoolTogether-V5/PoolTogether-V5-Report.md) | 
 | [Stader Labs](https://code4rena.com/contests/2023-06-stader-labs#top) | - | 2 Medium | [Source](xxxxxxxx)  | 
 
 
