@@ -30,7 +30,7 @@ Code4rena Profile: https://code4rena.com/@josephdara
 | [Amphora Protocol](https://code4rena.com/contests/2023-07-amphora-protocol#top) | 1 High | - | [Source](xxxxxxxx)  | 
 | [PoolTogether](https://code4rena.com/contests/2023-07-pooltogether#top) | 1 High | 1 Medium| [Source](https://github.com/Josephdara/Audits/blob/main/Code4rena/PoolTogether-V5/PoolTogether-V5-Report.md)  |
 | [Lybra Finance](https://code4rena.com/contests/2023-06-lybra-finance#top) | 3 High | 2 Medium | [Source](https://github.com/Josephdara/Audits/blob/main/Code4rena/Lybra%20Finance/Lybra-Report.md) | 
-| [Stader Labs](https://code4rena.com/contests/2023-06-stader-labs#top) | - | 2 Medium | [Source](xxxxxxxx)  | 
+| [Stader Labs](https://code4rena.com/contests/2023-06-stader-labs#top) | - | 2 Medium | [Source](https://github.com/Josephdara/Audits/blob/main/Code4rena/Stader%20Labs/Stader-Report.md)  | 
 
 
 # Other Reports
