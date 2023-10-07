@@ -3,11 +3,11 @@
 ## Findings by Josephdara
 | Severity | Title | Count |
 |:--:|:---|:--:|
-| [M-01](#m-01-V3-Proxy-does-not-send-funds-to-the-recipient-instead-it-sends-to-the-msg.sender)|V3 Proxy does not send funds to the recipient, instead it sends to the msg.sender| M-01 |
+| [M-01](#m-01-V3-Proxy-does-not-send-funds-to-the-recipient-instead-it-sends-to-the-msg.sender)|V3 Proxy does not send funds to the recipient instead it sends to the msg.sender| M-01 |
 | [M-02](#m-02-Complete-Loss-of-funds-when-swapping-to-Ether-from-another-contract)| Complete Loss of funds when swapping to Ether from another contract| M-02 |
 
 
-## [M-01] V3 Proxy does not send funds to the recipient, instead it sends to the msg.sender
+## [M-01] V3 Proxy does not send funds to the recipient instead it sends to the msg.sender
 
 ## Impact and Details
 https://github.com/code-423n4/2023-08-goodentry/blob/71c0c0eca8af957202ccdbf5ce2f2a514ffe2e24/contracts/helper/V3Proxy.sol#L112-L194
