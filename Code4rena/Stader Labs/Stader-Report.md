@@ -3,11 +3,11 @@
 ## Findings by Josephdara
 | Severity | Title | Count |
 |:--:|:---|:--:|
-| [M-01](#m-01-Owner-in-VaultProxy-is-address(0) ) | Owner in VaultProxy is address(0)| M-01 |
+| [M-01](#m-01-Owner-in-VaultProxy-is-address-zero ) | Owner in VaultProxy is address zero| M-01 |
 | [M-02](#m-02-Pausability-unimplemented)| Pausability unimplemented | M-02 |
 
 
-## [M-01] Owner in VaultProxy is address(0)
+## [M-01] Owner in VaultProxy is address zero
 
 ## Impact and Details
 
